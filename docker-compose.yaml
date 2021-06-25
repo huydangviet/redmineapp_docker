@@ -9,8 +9,3 @@ services:
     volumes:
       - ./:/home/app
     tty: true
-  db:
-    image: postgres
-    restart: always
-    environment:
-        POSTGRES_PASSWORD: example
